@@ -68,7 +68,9 @@ h1{
     display:block;
     width: 100%;
     height:600px;
-    background-image: url("https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fHdlYiUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=700&q=60");
+    
+    background-color: #D8A7CA;
+    background-image: url("undraw_engineering_team_a7n2.svg");
     background-repeat: no-repeat;
     background-size:100%;
     margin:0px;
@@ -79,12 +81,12 @@ h1{
 .home-img h2{
     font-size:40px;
     font-weight: 700;
-    color: #ed335f;
+    color: white;
 }
 .home-img p{
     font-size: 30px;
     margin:10%;
-    color: #761137;
+    color: beige;
     margin-top:1%;
 }
 .designs
