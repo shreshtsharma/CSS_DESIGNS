@@ -5,7 +5,9 @@ a{
 a:hover{
     color:beige;
 }
-
+a:active{
+    color:black;
+}
 @keyframes anim{
     from {background-color: #D8A7CA;}
     to{background-color: #2E282A;}
@@ -17,11 +19,8 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .nav{
-    margin-top:-21px;
     background-color: #D8A7CA;
-    width:auto;
-    height:85px;
-    padding:5px;
+    width:100%;
 
     display:flex;
     align-items: center;
