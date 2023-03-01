@@ -65,16 +65,15 @@ h1{
 }  
 
 .home-img{
+    
     display:block;
     width: 100%;
-    height:600px;
-    
+    height: 600px;
     background-color: #D8A7CA;
     background-image: url("undraw_engineering_team_a7n2.svg");
     background-repeat: no-repeat;
-    background-size:100%;
+    background-size:cover;
     margin:0px;
-    background-size: cover;
     font-family:'Times New Roman', Times, serif;
     text-align:center;
 }
@@ -124,10 +123,15 @@ h1{
     background-color: whitesmoke;
     width:45%;
     margin-bottom:50px;
-   
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
     /* border : 10px  solid #D8A7CA; */
     /* box-sizing:border-box; */
 
+}
+.block-item img{
+    border-top-left-radius:50px;
+    border-bottom-right-radius: 50px;
 }
 .block-item p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
